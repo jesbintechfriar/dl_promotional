@@ -19,6 +19,6 @@ const promotionalSubscriptionSchema = mongoose.Schema({
 })
 
 
-const PromotionalSubscription = mongoose.model('PromotionalSubscription', promotionalSubscriptionSchema)
+const PromotionalSubscription = mongoose.model('PromotionSubscription', promotionalSubscriptionSchema)
 
 export default PromotionalSubscription;
