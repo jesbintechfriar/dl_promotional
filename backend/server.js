@@ -11,7 +11,7 @@ connectDB()//initialize db connection
 // app.use(express.json()),
 //     app.use(express.urlencoded({ extended: true }))
 
-app.use('/api/promotional', promotionalEmailRoutes)
+app.use('/api/promotion-email', promotionalEmailRoutes)
 app.use(notFound)
 app.use(errorHandler)
 

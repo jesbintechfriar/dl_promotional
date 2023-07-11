@@ -5,7 +5,7 @@ import PromotionalSubscription from '../models/promotionalSubscriptionsModel.js'
 
 
 /*
-api/promotional
+api/promotion-email
 parameters: email
 method: POST
 response: _id,email,message
@@ -35,7 +35,7 @@ const insertEmail = asyncHandler(async (req, res) => {
 
 
 /*
-api/promotional/delete
+api/promotion-email/delete
 parameters: email
 method: DELETE
 response: _id,email,message
@@ -66,7 +66,7 @@ const deleteEmail = asyncHandler(async (req, res) => {
 
 
 /*
-api/promotional
+api/promotion-email
 parameters:
 method: GET
 response: Email List{id,email}
@@ -85,7 +85,7 @@ const listEmails = asyncHandler(async (req, res) => {
 
 
 /*
-api/promotional/update
+api/promotion-email/update
 parameters : id,email
 method: PUT
 response : id,email,message
