@@ -1,6 +1,6 @@
 import express from 'express'
 
-import {insertEmail,deleteEmail, listEmails, updateEmail }  from '../controllers/promotionalSubscriptionController.js'
+import {insertEmail,deleteEmail, listEmails, updateEmail }  from '../controllers/promotionSubscriptionController.js'
 const router = express.Router()
 
 //api/promotional/

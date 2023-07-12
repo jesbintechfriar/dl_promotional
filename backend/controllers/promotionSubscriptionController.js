@@ -1,5 +1,5 @@
 import asyncHandler from 'express-async-handler'
-import PromotionalSubscription from '../models/promotionalSubscriptionsModel.js';
+import PromotionalSubscription from '../models/promotionSubscriptionsModel.js';
 
 
 
@@ -103,7 +103,7 @@ const updateEmail = asyncHandler(async (req, res) => {
    else {
       res.status(201).json({
          _id: updateEmail.id,
-         email: updateEmail.email,
+         email: email,
          message: "Email updated successfully"
       })
    }

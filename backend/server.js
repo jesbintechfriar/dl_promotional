@@ -1,7 +1,7 @@
 import express from 'express'
 import dotenv from 'dotenv'
 import connectDB from './config/db.js'
-import promotionalEmailRoutes from './routes/promotionalSubscriptionRoutes.js'
+import promotionalEmailRoutes from './routes/adminRoutes.js'
 import { notFound, errorHandler } from './middleware/errorMiddleware.js'
 dotenv.config()//config .env file
 const app = express()
